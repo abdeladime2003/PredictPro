@@ -1,0 +1,6 @@
+[submodule "Frontend"]
+	path = Frontend
+	url = https://github.com/abdeladime2003/PredictPro_Front.git
+[submodule "Backend"]
+	path = Backend
+	url = https://github.com/abdeladime2003/PredictPro_backend.git
