@@ -18,10 +18,7 @@ This repository contains references to two separate repositories:
 - **Frontend**: Contains the React-based frontend for the application.
 - **Backend**: Contains the Django-based backend API that handles the business logic and serves the predictions and image generation.
 
-For detailed setup instructions, please refer to the individual repositories:
-
-- [Frontend Repository](./Frontend)
-- [Backend Repository](./Backend)
+For detailed setup instructions, please refer to the individual repositories
 
 ## Setup
 
