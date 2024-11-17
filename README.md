@@ -1,6 +1,5 @@
-# PredictProb
-
-PredictProb is a web application designed to provide AI and ML-based predictions for various use cases, including sports match outcomes, player transfer prices, and image generation. The platform aims to offer an intuitive, user-friendly interface where users can easily access these predictions.
+# PredictPro
+PredictPro is a web application designed to provide AI and ML-based predictions for various use cases, including sports match outcomes, player transfer prices, and image generation. The platform aims to offer an intuitive, user-friendly interface where users can easily access these predictions.
 
 ## Features
 - **Sports Match Prediction**: Predict the outcome of sports matches using AI/ML models.
