@@ -1,7 +1,5 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1ABC9C,50:3498DB,100:9B59B6&height=200&section=header&text=PREDICTPRO&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=AI-Powered%20Prediction%20Platform%20for%20Sports%20%26%20Analytics&descAlignY=51&descSize=18&descColor=ffffff)
-
 </div>
 
 <div align="center">
