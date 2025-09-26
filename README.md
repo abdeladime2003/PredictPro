@@ -23,7 +23,7 @@
 
 ## PROJECT OVERVIEW
 
-**PredictPro** is an advanced AI-powered prediction platform that leverages machine learning algorithms to provide accurate forecasts across multiple domains. The platform specializes in sports analytics, financial predictions for player transfers, and creative AI capabilities through image generation, serving as a comprehensive solution for data-driven decision making.
+**SportsTech-AI** is an advanced AI-powered prediction platform that leverages machine learning algorithms to provide accurate forecasts across multiple domains. The platform specializes in sports analytics, financial predictions for player transfers, and creative AI capabilities through image generation, serving as a comprehensive solution for data-driven decision making.
 
 ### Core Applications
 
@@ -34,7 +34,7 @@ The platform addresses three key market segments:
 
 ### Technical Architecture
 
-PredictPro implements a modern microservices architecture with clear separation between presentation, business logic, and data processing layers, ensuring scalability and maintainability for enterprise-grade applications.
+SportsTech-AI implements a modern microservices architecture with clear separation between presentation, business logic, and data processing layers, ensuring scalability and maintainability for enterprise-grade applications.
 
 ---
 
@@ -273,8 +273,8 @@ MODEL_PERFORMANCE = {
 **Quick Start:**
 ```bash
 # Clone the main repository
-git clone https://github.com/abdeladime2003/PredictPro.git
-cd PredictPro
+git clone https://github.com/abdeladime2003/SportsTech-AI.git
+cd SportsTech-AI
 
 # Initialize submodules
 git submodule update --init --recursive
@@ -316,7 +316,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 EXPOSE 8000
 
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "predictpro.wsgi:application"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8000", "SportsTech-AI.wsgi:application"]
 ```
 
 **Docker Compose Setup:**
@@ -328,7 +328,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - DATABASE_URL=postgresql://user:pass@db:5432/predictpro
+      - DATABASE_URL=postgresql://user:pass@db:5432/SportsTech-AI
       - REDIS_URL=redis://redis:6379/0
     depends_on:
       - db
@@ -344,7 +344,7 @@ services:
   db:
     image: postgres:14
     environment:
-      - POSTGRES_DB=predictpro
+      - POSTGRES_DB=SportsTech-AI
       - POSTGRES_USER=user
       - POSTGRES_PASSWORD=password
     volumes:
@@ -460,9 +460,9 @@ image_url = result['image_url']
 ## PROJECT STRUCTURE
 
 ```
-PredictPro/
+SportsTech-AI/
 ├── Backend/                          # Django REST API
-│   ├── predictpro/
+│   ├── SportsTech-AI/
 │   │   ├── settings/
 │   │   │   ├── base.py              # Base configuration
 │   │   │   ├── development.py       # Dev settings
@@ -601,7 +601,7 @@ PredictPro/
 
 ```bash
 # 1. Fork the repository
-git clone https://github.com/yourusername/PredictPro.git
+git clone https://github.com/yourusername/SportsTech-AI.git
 
 # 2. Create feature branch
 git checkout -b feature/new-prediction-model
@@ -632,9 +632,9 @@ git push origin feature/new-prediction-model
 
 <div align="center">
 
-![Stars](https://img.shields.io/github/stars/abdeladime2003/PredictPro?style=social)
-![Forks](https://img.shields.io/github/forks/abdeladime2003/PredictPro?style=social)
-![Issues](https://img.shields.io/github/issues/abdeladime2003/PredictPro?style=social)
+![Stars](https://img.shields.io/github/stars/abdeladime2003/SportsTech-AI?style=social)
+![Forks](https://img.shields.io/github/forks/abdeladime2003/SportsTech-AI?style=social)
+![Issues](https://img.shields.io/github/issues/abdeladime2003/SportsTech-AI?style=social)
 
 **AI-Powered Prediction Platform | INPT 2025**
 
